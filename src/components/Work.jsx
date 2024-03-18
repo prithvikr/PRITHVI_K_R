@@ -3,9 +3,9 @@ import Workitem from "./Workitem";
 
 const data = [
   {
-    year: 2021,
+    year: 2022,
     title: "Systems Engineer",
-    duration: "SEP 2023-PRESENT",
+    duration: "JUN 2022-PRESENT",
     details: (
       <p>
         • Revamped UI for a React class components project, elevating user
@@ -16,19 +16,6 @@ const data = [
         team efficiency. <br></br>• Implemented performance optimizations,
         reducing application <b>oading times by 30%</b> and fostering a more
         responsive user experience. <br></br>
-        <b>
-          Javascript, React Js,React-Hooks,Redux, SPA, Bootstrap, Agile
-          Methodology.
-        </b>
-      </p>
-    ),
-  },
-  {
-    year: 2021,
-    title: "Systems Engineer",
-    duration: "JUNE 2022- AUG 2023",
-    details: (
-      <p>
         • Developed and customized Finacle, enhancing its <b>functionalities</b>{" "}
         to meet specific business requirements. Created account validation
         functionalities for both inbound and outbound payments, covering normal
@@ -42,12 +29,13 @@ const data = [
         <b>flow builder</b> and node red framework. Developed Custom
         <b>UI components </b>for Finacle using FinUX Workbench. <br></br>•{" "}
         <b>
-          Node.js , Javascript, MongoDB, Node-red, Postman, Agile Methodology,
-          Secure SDLC, Documentation.
+          Javascript, React Js,React-Hooks,Redux, SPA, Bootstrap, Node.js, MongoDB, Node-red, Postman, Documentation, Agile
+          Methodology.
         </b>
       </p>
     ),
   },
+  
   {
     year: 2021,
     title: "Systems engineer",
