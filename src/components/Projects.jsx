@@ -26,7 +26,7 @@ const Projects = () => {
           img={netflixImg}
           title="Netflix App"
           techstack=" HTML CSS VANILLA JS"
-          preview="https://netflix-pp.vercel.app/"
+          preview="https://lighthearted-muffin-2ac448.netlify.app/"
           github="https://github.com/prithvikr/NetflixPP-Clone"
         />
         <ProjectItem
