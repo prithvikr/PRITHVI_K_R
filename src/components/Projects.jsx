@@ -3,7 +3,7 @@ import ProjectItem from "./ProjectItem";
 import MERN from "../assets/MERN.png";
 import Amazon from "../assets/amazon.png"
 import netflixImg from "../assets/netflix.png";
-import portfolioImg from "../assets/portfolio.png";
+import portImg from "../assets/port.png";
 import todoImg from "../assets/todo.jpg";
 
 const Projects = () => {
@@ -30,7 +30,7 @@ const Projects = () => {
           github="https://github.com/prithvikr/NetflixPP-Clone"
         />
         <ProjectItem
-          img={portfolioImg}
+          img={portImg}
           title="Portfolio Me"
           techstack="ReactJS EmailJS React-Router  Bootstrap SASS "
           preview="prithvi-k-r.vercel.app"
