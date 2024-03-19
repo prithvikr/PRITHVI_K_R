@@ -1,10 +1,15 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
 import MERN from "../assets/MERN.png";
-import Amazon from "../assets/amazon.png"
+import Amazon from "../assets/amazon.png";
 import netflixImg from "../assets/netflix.png";
 import portImg from "../assets/port.png";
 import todoImg from "../assets/todo.jpg";
+import Binary from "../assets/Binary.png";
+import Dashboard from "../assets/Dashboard.png";
+import Food from "../assets/Food.png";
+import Form from "../assets/Form.png";
+import Game from "../assets/Game.png";
 
 const Projects = () => {
   return (
@@ -14,7 +19,6 @@ const Projects = () => {
       </h1>
       <p className="text-center py-8"></p>
       <div className="grid sm:grid-cols-2 gap-12">
-        
         <ProjectItem
           img={Amazon}
           title="AMAZON"
@@ -43,13 +47,45 @@ const Projects = () => {
           preview=""
           github="https://github.com/prithvikr/MERN-E-Commerce"
         />
-        
+
         <ProjectItem
-          img={todoImg}
-          title="To Do App"
+          img={Binary}
+          title="Binary Message Decoder"
           techstack="HTML CSS VANILLA JS"
-          preview="https://to-do-six-plum.vercel.app/"
-          github="https://github.com/prithvikr/TO_DO"
+          preview="https://main--binarymegdeco.netlify.app/"
+          github="https://github.com/prithvikr/BiMeDe"
+        />
+
+        <ProjectItem
+          img={Dashboard}
+          title="Sports Dashboard"
+          techstack="HTML CSS VANILLA JS"
+          preview="https://main--sportsdahboard.netlify.app/"
+          github="https://github.com/prithvikr/Dashboard"
+        />
+
+        <ProjectItem
+          img={Food}
+          title="Food Delivery APP"
+          techstack="HTML CSS BOOTSTRAP"
+          preview="https://main--fooddeliverapp.netlify.app/"
+          github="https://github.com/prithvikr/Food-Delivery-Website"
+        />
+
+        <ProjectItem
+          img={Form}
+          title="Form Validation"
+          techstack="HTML CSS VANILLA JS"
+          preview="https://main--passwordvalid.netlify.app/"
+          github="https://github.com/prithvikr/PASSV-Form"
+        />
+
+        <ProjectItem
+          img={Game}
+          title="GAME 4 DOT"
+          techstack="HTML CSS VANILLA JS"
+          preview="https://main--game4dot.netlify.app/"
+          github="https://github.com/prithvikr/GAME4DOT"
         />
       </div>
     </div>
