@@ -40,14 +40,7 @@ const Projects = () => {
           preview="prithvi-k-r.vercel.app"
           github="https://github.com/prithvikr/PRITHVI_K_R"
         />
-        <ProjectItem
-          img={MERN}
-          title="MERN E-COMMERCE"
-          techstack="NodeJS, ReactJS, MongoDB,Redux, Firebase, SCSS"
-          preview=""
-          github="https://github.com/prithvikr/MERN-E-Commerce"
-        />
-
+        
         <ProjectItem
           img={Binary}
           title="Binary Message Decoder"
